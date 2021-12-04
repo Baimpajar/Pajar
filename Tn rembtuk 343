@@ -1,0 +1,39 @@
+pengantar
+Tool-X adalah penginstal alat peretasan Kali Linux untuk Termux dan sistem linux. Tool-X dikembangkan untuk sistem berbasis Termux dan linux. Menggunakan Tool-X, Anda dapat menginstal hampir 370+ alat peretasan di Termux (android) dan distribusi berbasis Linux lainnya. Sekarang Tool-X tersedia untuk Ubuntu, Debian dll.
+
+
+  
+
+Persyaratan Sistem Operasi
+Tool-X bekerja pada salah satu sistem operasi berikut:
+• Android (Menggunakan Aplikasi Termux)
+• Linux (Sistem Berbasis Debian)
+• Unix
+
+Bagaimana cara meng-install
+Buka terminal dan ketik perintah berikut.
+
+apt update
+
+apt install git
+
+git clone https://github.com/rajkumardusad/Tool-X.git
+
+cd Tool-X
+
+chmod +x install
+
+sh install jika tidak bekerja daripada menggunakan ./install
+
+Cara Penggunaan ?
+Masukkan Nomor untuk output tertentu:
+
+(1) : Untuk menampilkan semua alat yang tersedia dan ketik nomor alat yang ingin Anda instal.
+(2) : Untuk menampilkan kategori alat.
+(3) : Jika Anda ingin memperbarui Tool-X.
+(4) : Jika Anda ingin tahu Tentang Kami.
+(x) : Untuk keluar dari alat.
+
+Sekarang Tool-X berhasil diinstal. Untuk menjalankan Tool-X Type Tool-Xatau toolxdi terminal Anda.
+
+Ketik Tool-Xatau toolxdari mana saja di terminal Anda untuk membuka Tool-X
